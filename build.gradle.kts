@@ -4,7 +4,6 @@ plugins {
 
     id("io.quarkus") version "2.5.0.Final"
     maven
-    `maven-publish`
 }
 
 group = "com.github.vadim-hleif.covalent-sdk-quarkus"
