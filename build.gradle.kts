@@ -1,9 +1,15 @@
 plugins {
     id("org.jetbrains.kotlin.jvm") version "1.5.31"
+    `maven-publish`
 }
 
+group = "com.github.vadim-hleif.covalent-sdk-quarkus"
+
 repositories {
+    mavenLocal()
     mavenCentral()
+
+    maven("https://jitpack.io")
 }
 
 dependencies {
